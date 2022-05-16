@@ -1,6 +1,5 @@
 <script>
-import ThemeChanger from "./ThemeChanger.svelte";
-
+	import ThemeChanger from "./ThemeChanger.svelte";
 </script>
 
 <header>
@@ -15,8 +14,8 @@ import ThemeChanger from "./ThemeChanger.svelte";
 				<a class="btn btn-ghost btn-sm rounded-btn" sveltekit:prefetch href="/about">About</a>
 			</div>
 		</div>
-			<div class="flex-none mr-2 max-w-min">
-				<ThemeChanger/>
-			</div>
+		<div class="flex-none mr-2 max-w-min">
+			<ThemeChanger />
+		</div>
 	</nav>
 </header>
