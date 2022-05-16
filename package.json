@@ -14,7 +14,8 @@
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "next",
-		"@sveltejs/kit": "next",
+		"@sveltejs/adapter-static": "^1.0.0-next.31",
+		"@sveltejs/kit": "^1.0.0-next.333",
 		"@types/cookie": "^0.4.1",
 		"@typescript-eslint/eslint-plugin": "^5.23.0",
 		"@typescript-eslint/parser": "^5.23.0",
@@ -26,19 +27,18 @@
 		"postcss": "^8.4.5",
 		"prettier": "^2.4.1",
 		"prettier-plugin-svelte": "^2.4.0",
-		"svelte": "^3.44.0",
-		"svelte-check": "^2.2.6",
-		"svelte-preprocess": "^4.9.4",
+		"svelte": "^3.48.0",
+		"svelte-check": "^2.7.1",
+		"svelte-preprocess": "^4.10.6",
 		"svelte-typewriter": "^3.0.0-alpha.8",
 		"tailwindcss": "^3.0.15",
-		"tslib": "^2.3.1",
-		"typescript": "^4.4.3"
+		"tslib": "^2.4.0",
+		"typescript": "^4.6.4"
 	},
 	"type": "module",
 	"dependencies": {
 		"@fontsource/fira-mono": "^4.5.0",
 		"@lukeed/uuid": "^2.0.0",
-		"@sveltejs/adapter-static": "^1.0.0-next.26",
 		"cookie": "^0.4.1",
 		"theme-change": "^2.0.2"
 	},
