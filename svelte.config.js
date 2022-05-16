@@ -15,7 +15,7 @@ const config = {
 		adapter: adapter(),
 		prerender: {
 			enabled: true
-		},
+		}
 	}
 };
 
