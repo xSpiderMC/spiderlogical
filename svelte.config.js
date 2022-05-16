@@ -16,7 +16,6 @@ const config = {
 		prerender: {
 			enabled: true
 		},
-		target: "#svelte"
 	}
 };
 
