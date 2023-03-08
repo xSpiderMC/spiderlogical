@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { onMount } from "svelte";
-	import { themeChange } from "theme-change";
+	import { onMount } from 'svelte';
+	import { themeChange } from 'theme-change';
 
 	onMount(() => {
 		themeChange(false);
@@ -29,9 +29,13 @@
 		id="themeDropdown"
 	>
 		<li class="text-base-content">
-			<a data-set-theme="halloween" data-act-class="active">Halloween</a>
+			<button data-set-theme="halloween" data-act-class="active">Halloween</button>
 		</li>
-		<li class="text-base-content"><a data-set-theme="dark" data-act-class="active">Dark</a></li>
-		<li class="text-base-content"><a data-set-theme="light" data-act-class="active">Light</a></li>
+		<li class="text-base-content">
+			<button data-set-theme="dark" data-act-class="active">Dark</button>
+		</li>
+		<li class="text-base-content">
+			<button data-set-theme="light" data-act-class="active">Light</button>
+		</li>
 	</ul>
 </div>

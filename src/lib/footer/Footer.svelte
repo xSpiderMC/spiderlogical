@@ -1,6 +1,6 @@
 <footer class="p-4 footer bg-neutral text-neutral-content absolute bottom-0">
 	<div class="items-center grid-flow-col">
-		<p>Copyright © 2022 - All right reserved</p>
+		<p>Copyright © 2023 - All right reserved</p>
 		<p>|</p>
 		<p>
 			Made with <a class="link-hover" href="https://daisyui.com">daisyUI</a> &

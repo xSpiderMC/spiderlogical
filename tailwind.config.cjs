@@ -1,11 +1,11 @@
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-	content: ["./src/**/*.{html,js,svelte,ts}"],
+	content: ['./src/routes/**/*.{svelte,js,ts}', './src/lib/**/*.{svelte,js,ts}'],
+	plugins: [require('daisyui')],
 	theme: {
 		extend: {}
 	},
-	plugins: [require("daisyui")],
-
 	daisyui: {
-		themes: ["halloween", "dark", "light"]
+		themes: ['halloween', 'dark', 'light']
 	}
 };
