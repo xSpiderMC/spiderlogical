@@ -1,1 +1,0 @@
-import{S as o,i as a,s as n,M as c,d as r,n as e}from"../chunks/index-5d2a8f13.js";function d(s){return{c(){this.h()},l(t){c('[data-svelte="svelte-5oeyam"]',document.head).forEach(r),this.h()},h(){document.title="Projects"},m:e,p:e,i:e,o:e,d:e}}class i extends o{constructor(t){super(),a(this,t,null,d,n,{})}}export{i as default};
